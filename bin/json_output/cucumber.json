@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate Users API",
+        "description": "",
+        "id": "mobiquity;validate-users-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 122772096,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have access to UsersAPI",
+            "match": {
+              "location": "UserStepDef.i_have_access_to_UsersAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3261371245,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I send Get request for the user \"Delphine\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Delphine",
+                  "offset": 33
+                }
+              ],
+              "location": "UserStepDef.i_send_Get_request_for_the_user(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46549292,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should validate StatusCode",
+            "match": {
+              "location": "UserStepDef.i_should_validate_StatusCode()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Mobiquity",
+    "description": "",
+    "id": "mobiquity",
+    "keyword": "Feature",
+    "uri": "/Users/Sampada/eclipse-workspace/MobiquityAssignment/src/main/java/Features/Users.feature"
+  }
+]
